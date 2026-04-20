@@ -55,3 +55,47 @@ listmarks=Marks.split()
 print(listmarks)
 listmarks.sort()
 print(listmarks)
+# Dictionary & Sets
+myDict = {"pankha": "Fan", "Pagal": "Stupid", "Vastu": "Thing"}
+print("options are ", myDict.keys())
+a=input("enter the word: ")
+# print("the meaning of your word is:",myDict[a]) (it will give the error )
+print("the meaning of your word is:",myDict.get(a)) # it will not give the error
+num1=int(input("enter the first number"))
+num2=int(input("enter the second number"))
+num3=int(input("enter the third number"))
+num4=int(input("enter the fourth number"))
+num5=int(input("enter the fifth number"))
+num6=int(input("enter the sixth number"))
+num7=int(input("enter the seventh number"))
+num8=int(input("enter the eighth number"))
+s ={num1,num2,num3,num4,num5,num6,num7}
+print(s)
+s = {18,"18"} # both are different values
+print(s)
+s=set()
+s.add(20)
+s.add(20.0)
+s.add("40")
+print(s)
+print(len(s))
+s={}
+print(type(s))
+s=set()
+print(type(s))
+s1=set()
+s1.add(input("tell your fav language harshal "))
+s1.add(input("tell your fav language janvi "))
+s1.add(input("tell your fav language reshma "))
+s1.add(input("tell your fav language neelam "))
+print(s1)
+
+
+
+
+
+
+
+
+
+
