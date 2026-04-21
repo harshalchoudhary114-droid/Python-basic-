@@ -89,6 +89,57 @@ s1.add(input("tell your fav language janvi "))
 s1.add(input("tell your fav language reshma "))
 s1.add(input("tell your fav language neelam "))
 print(s1)
+# conditional , logical & relational expression
+age=input("enter your age ")
+age=int(age)
+if age>=18:
+ print("yes")
+else:
+    print("no")
+if age>18 and age<65:
+    print("yes")
+else:
+    print("no")
+    if age>18 or age<65:
+     print("yes")
+    else :
+            print("no")
+num1=int(input("enter a number "))
+num2=int(input("enter another number "))
+num3=int(input("enter another number "))
+num4=int(input("enter another number "))
+if num1>num2 and num1>num3 and num1>num4:
+    print("the greatest number is ",num1)
+elif num2>num1 and num2>num3 and num2>num4:
+    print("the greater number is ",num2)
+elif num3>num1 and num3>num2 and num3>num4:
+    print("the greatest number is ",num3)
+elif num4>num1 and num4>num2 and num4>num3:
+    print("the greatest number is ",num4)
+else :
+        print("all are equal  ")
+username = input("Enter your username: ")
+print(len(username))
+if len(username) <= 10:
+    print("Your username is valid")
+else:
+    print("Your username is invalid")
+marks=int(input("enter your marks:"))
+if marks>=90:
+    grade="A"
+elif marks>=80:
+        grade="B"
+elif marks>=70:
+        grade="C"
+elif marks>=60:
+            grade="D"
+else:
+            grade="F"
+print(grade)
+
+
+
+
 
 
 
