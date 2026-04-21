@@ -136,6 +136,28 @@ elif marks>=60:
 else:
             grade="F"
 print(grade)
+# loops
+i=0
+while i<5:
+    print(i)
+    i=i+1
+    if i==5:
+        break
+fruits = ["apple", "banana", "cherry"]
+i=0
+while i<len(fruits):
+    print(fruits[i])
+    i=i+1
+for fruit in fruits:
+    print(fruit)
+num=int(input("enter the number "))
+for i in range(1,11):
+    # print( str(num) + "X" + str(i) + "=" + str((i)*num))
+    print(f"{num}*{i}={num*i}")
+
+
+
+
 
 
 
