@@ -154,7 +154,16 @@ num=int(input("enter the number "))
 for i in range(1,11):
     # print( str(num) + "X" + str(i) + "=" + str((i)*num))
     print(f"{num}*{i}={num*i}")
-
+num = int(input("enter the number "))
+prime= True
+for i in range(2,num):
+    if num%i==0:
+        prime = False
+        break
+if prime:
+  print("the number is prime")
+else:
+    print("the number is not prime")
 
 
 
