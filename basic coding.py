@@ -188,7 +188,7 @@ def factorial_iter(n):
     return product
 
 print(factorial_iter(n))
-# n! = n*(n-1)!
+# n! = n*(n-1)*n!
 n=int(input())
 def factorial_recursive(n):
     if n == 0:
@@ -202,3 +202,17 @@ print("Hello ",end="")
 print("how",end=" ")
 print("are",end=" ")
 print("you?",end=" ")
+# sum(n) = sum(n-1)+n
+n=int(input())
+def recur_sum(n):
+    # Base case: if n is 1 or 0, return n
+    if n <= 1:
+        return n
+    else:
+        # Recursive step: n + sum of (n-1)
+        return n + recur_sum(n - 1)
+n=int(input())
+for i in range(n):
+    print("*"*(n-i))
+
+
